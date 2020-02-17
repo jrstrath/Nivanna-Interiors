@@ -1,0 +1,7 @@
+[12-Feb-2020 18:43:15 UTC] PHP Warning:  get_headers() expects at least 1 parameter, 0 given in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 1
+[12-Feb-2020 18:43:15 UTC] PHP Stack trace:
+[12-Feb-2020 18:43:15 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[12-Feb-2020 18:43:15 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[12-Feb-2020 18:43:15 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[12-Feb-2020 18:43:15 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[12-Feb-2020 18:43:15 UTC] PHP   5. get_headers() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php:1
