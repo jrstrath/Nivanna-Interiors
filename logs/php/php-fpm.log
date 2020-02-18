@@ -40,3 +40,19 @@
 [17-Feb-2020 08:15:02] ERROR: FPM initialization failed
 [17-Feb-2020 08:15:02] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
 [17-Feb-2020 08:15:02] ERROR: FPM initialization failed
+[17-Feb-2020 22:53:38] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[17-Feb-2020 22:53:38] ERROR: FPM initialization failed
+[17-Feb-2020 22:53:39] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[17-Feb-2020 22:53:39] ERROR: FPM initialization failed
+[17-Feb-2020 22:53:40] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[17-Feb-2020 22:53:40] ERROR: FPM initialization failed
+[17-Feb-2020 22:53:40] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[17-Feb-2020 22:53:40] ERROR: FPM initialization failed
+[18-Feb-2020 08:15:00] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[18-Feb-2020 08:15:00] ERROR: FPM initialization failed
+[18-Feb-2020 08:15:01] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[18-Feb-2020 08:15:01] ERROR: FPM initialization failed
+[18-Feb-2020 08:15:01] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[18-Feb-2020 08:15:01] ERROR: FPM initialization failed
+[18-Feb-2020 08:15:02] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[18-Feb-2020 08:15:02] ERROR: FPM initialization failed

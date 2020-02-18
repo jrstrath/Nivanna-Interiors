@@ -1,6 +1,7 @@
 <?php get_header();?>
 
 <?php $jumbotron = get_field('jumbotron');?>
+<?php $catalogue = get_field('catalogue');?>
 
         <div class="container-fluid">
 
@@ -47,10 +48,8 @@
     <div class="header">
         <img src="<?php bloginfo( 'template_directory' )?>/src/img/Line_blue.svg" alt="header border">
         <div class="header__text my-auto">
-            <h1>Catalogue</h1>
-            <p>Browse through our catalogue section<br /> to see what we have <span>in
-                    stock
-                </span>
+            <h1><?php echo $catalogue['catalogue_header'];?></h1>
+            <p><?php echo $catalogue['catalogue_header_text']['cat_first_line'];?><br /> <?php echo $catalogue['catalogue_header_text']['cat_second_line'];?> <span><?php echo $catalogue['highlight_text'];?></span>
             </p>
         </div>
     </div>
@@ -209,10 +208,24 @@
 
             </div>
 
-
-            <!-- div.map to embed the google map into the website -->
-            <div class="map"></div>
+            <script>
+                // Initialize and add the map
+                function initMap() {
+                // The location of City Mall
+                var uluru = {lat: -4.019433, lng: 39.721098};
+                // The map, centered at City Mall
+                var map = new google.maps.Map(
+                    document.getElementById('map'), {zoom: 18, center: uluru});
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({position: uluru, map: map});
+                }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZhcq7rb3Q-aJ34SMddOMoNxnToodGjHs&callback=initMap">
+            </script>
         </div>
+        <!-- div.map to embed the google map into the website -->
+        <div id='map' class="map"></div>
 
         <!-- Other contact info -->
     </div>
