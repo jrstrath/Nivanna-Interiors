@@ -6,3 +6,61 @@
 [12-Feb-2020 18:43:15 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
 [12-Feb-2020 18:43:15 UTC] PHP   5. get_headers() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php:1
 [18-Feb-2020 05:46:48 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ']' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 214
+[22-Feb-2020 12:16:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php on line 162
+[22-Feb-2020 12:16:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php on line 162
+[22-Feb-2020 12:16:48 UTC] PHP Stack trace:
+[22-Feb-2020 12:16:48 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:0
+[22-Feb-2020 12:16:48 UTC] PHP Stack trace:
+[22-Feb-2020 12:16:48 UTC] PHP   2. do_action_ref_array() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:138
+[22-Feb-2020 12:16:48 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:0
+[22-Feb-2020 12:16:48 UTC] PHP   3. WP_Hook->do_action() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/plugin.php:544
+[22-Feb-2020 12:16:48 UTC] PHP   2. do_action_ref_array() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:138
+[22-Feb-2020 12:16:48 UTC] PHP   4. WP_Hook->apply_filters() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:312
+[22-Feb-2020 12:16:48 UTC] PHP   3. WP_Hook->do_action() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/plugin.php:544
+[22-Feb-2020 12:16:48 UTC] PHP   5. wp_version_check() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:288
+[22-Feb-2020 12:16:48 UTC] PHP   4. WP_Hook->apply_filters() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:312
+[22-Feb-2020 12:16:48 UTC] PHP   6. trigger_error() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php:162
+[22-Feb-2020 12:16:48 UTC] PHP   5. wp_version_check() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:288
+[22-Feb-2020 12:16:48 UTC] PHP   6. trigger_error() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php:162
+[22-Feb-2020 12:17:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php on line 388
+[22-Feb-2020 12:17:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php on line 388
+[22-Feb-2020 12:17:09 UTC] PHP Stack trace:
+[22-Feb-2020 12:17:09 UTC] PHP Stack trace:
+[22-Feb-2020 12:17:09 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:0
+[22-Feb-2020 12:17:09 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:0
+[22-Feb-2020 12:17:09 UTC] PHP   2. do_action_ref_array() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:138
+[22-Feb-2020 12:17:09 UTC] PHP   2. do_action_ref_array() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:138
+[22-Feb-2020 12:17:09 UTC] PHP   3. WP_Hook->do_action() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/plugin.php:544
+[22-Feb-2020 12:17:09 UTC] PHP   3. WP_Hook->do_action() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/plugin.php:544
+[22-Feb-2020 12:17:09 UTC] PHP   4. WP_Hook->apply_filters() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:312
+[22-Feb-2020 12:17:09 UTC] PHP   4. WP_Hook->apply_filters() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:312
+[22-Feb-2020 12:17:09 UTC] PHP   5. wp_update_plugins() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:288
+[22-Feb-2020 12:17:09 UTC] PHP   5. wp_update_plugins() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:288
+[22-Feb-2020 12:17:09 UTC] PHP   6. trigger_error() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php:388
+[22-Feb-2020 12:17:09 UTC] PHP   6. trigger_error() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php:388
+[22-Feb-2020 12:17:20 UTC] WordPress database error Server shutdown in progress for query SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1 made by _get_cron_lock
+[22-Feb-2020 12:17:20 UTC] WordPress database error Server shutdown in progress for query SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1 made by _get_cron_lock
+[22-Feb-2020 17:49:13 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php on line 577
+[22-Feb-2020 17:49:13 UTC] PHP Stack trace:
+[22-Feb-2020 17:49:13 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:0
+[22-Feb-2020 17:49:13 UTC] PHP   2. do_action_ref_array() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:138
+[22-Feb-2020 17:49:13 UTC] PHP   3. WP_Hook->do_action() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/plugin.php:544
+[22-Feb-2020 17:49:13 UTC] PHP   4. WP_Hook->apply_filters() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:312
+[22-Feb-2020 17:49:13 UTC] PHP   5. wp_update_themes() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:288
+[22-Feb-2020 17:49:13 UTC] PHP   6. trigger_error() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php:577
+[22-Feb-2020 17:49:34 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php on line 162
+[22-Feb-2020 17:49:34 UTC] PHP Stack trace:
+[22-Feb-2020 17:49:34 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:0
+[22-Feb-2020 17:49:34 UTC] PHP   2. do_action_ref_array() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:138
+[22-Feb-2020 17:49:34 UTC] PHP   3. WP_Hook->do_action() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/plugin.php:544
+[22-Feb-2020 17:49:34 UTC] PHP   4. WP_Hook->apply_filters() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:312
+[22-Feb-2020 17:49:34 UTC] PHP   5. wp_version_check() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:288
+[22-Feb-2020 17:49:34 UTC] PHP   6. trigger_error() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php:162
+[22-Feb-2020 17:49:55 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php on line 388
+[22-Feb-2020 17:49:55 UTC] PHP Stack trace:
+[22-Feb-2020 17:49:55 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:0
+[22-Feb-2020 17:49:55 UTC] PHP   2. do_action_ref_array() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-cron.php:138
+[22-Feb-2020 17:49:55 UTC] PHP   3. WP_Hook->do_action() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/plugin.php:544
+[22-Feb-2020 17:49:55 UTC] PHP   4. WP_Hook->apply_filters() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:312
+[22-Feb-2020 17:49:55 UTC] PHP   5. wp_update_plugins() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:288
+[22-Feb-2020 17:49:55 UTC] PHP   6. trigger_error() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php:388

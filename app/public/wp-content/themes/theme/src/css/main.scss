@@ -4,13 +4,20 @@
 // Import partial files
 @import "colors";
 @import "effects";
+@import "variables";
+
 // @import "boot_reset";
 
 * {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background-color: $super_white;
+  background-color: $off_white;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 1368px;
 }
 
 div {
@@ -47,11 +54,13 @@ h2 {
   width: 100%;
   z-index: 100;
   background-color: $super_white;
+  height: 60px;
 
   a.navbar-brand {
     color: $black;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
   }
 }
 .header {
@@ -67,7 +76,7 @@ h2 {
   h1 {
     font-weight: bold;
     color: $dark_blue;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   p {
     span {
@@ -110,11 +119,10 @@ a.nav-brand {
 section {
   height: 100%;
   position: relative;
-  padding: 2em;
+  padding: 2em 1em;
 
   &.jumbotron {
-    height: 100vh;
-    padding-right: 0;
+    height: $vh;
   }
 }
 .jumbotron {
@@ -122,7 +130,7 @@ section {
   background-color: transparent;
 
   .top {
-    height: 65vh;
+    height: 100%;
     position: relative;
   }
 
@@ -139,31 +147,33 @@ section {
   flex-flow: column;
   height: 100%;
   &--text {
+    margin-bottom: 2em !important;
     &--head {
       font-weight: bold;
-      font-size: 2.5rem;
+      font-size: 2rem;
       margin-top: 3em;
       padding-bottom: 0.25em;
     }
     &--minor {
-      font-size: 1.15rem;
+      font-size: 1rem;
     }
   }
 }
 
 .jumbotron__img {
-  height: 90%;
+  height: $vh / 1.52;
   background-color: grey;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
+  border-radius: 50px;
+  // border-bottom-left-radius: 50px;
   background: url("/wp-content/themes/theme/src/img/jumbotron.jpg"),
     linear-gradient(rgba($cyan, 0.24), rgba($cyan, 0.24));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  width: 47.5vw;
+  width: $vw * 0.45;
   right: 0;
+  top: 15%;
 }
 
 .jumbotron__btn {
@@ -247,6 +257,7 @@ section {
     4px 4px 20px rgba(0, 0, 0, 0.25);
   margin: auto;
   padding: 0.5em 2em;
+  height: 100%;
 
   &--row {
     height: 4.5em;
@@ -284,6 +295,7 @@ section {
 .catalogue__menu {
   display: flex;
   margin: auto;
+  height: 100%;
 }
 
 .catalogue__items {
@@ -479,8 +491,7 @@ footer {
 }
 
 .row {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding: 2em 1em;
 }
 
 .info {
