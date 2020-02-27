@@ -68,3 +68,13 @@
 [22-Feb-2020 20:49:02] ERROR: FPM initialization failed
 [24-Feb-2020 08:25:41] NOTICE: fpm is running, pid 5169
 [24-Feb-2020 08:25:41] NOTICE: ready to handle connections
+[24-Feb-2020 19:28:35] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[24-Feb-2020 19:28:35] ERROR: FPM initialization failed
+[24-Feb-2020 19:28:35] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[24-Feb-2020 19:28:35] ERROR: FPM initialization failed
+[24-Feb-2020 19:28:36] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[24-Feb-2020 19:28:36] ERROR: FPM initialization failed
+[24-Feb-2020 19:28:37] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[24-Feb-2020 19:28:37] ERROR: FPM initialization failed
+[27-Feb-2020 08:32:32] NOTICE: fpm is running, pid 17261
+[27-Feb-2020 08:32:32] NOTICE: ready to handle connections
