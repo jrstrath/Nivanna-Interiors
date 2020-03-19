@@ -64,3 +64,127 @@
 [22-Feb-2020 17:49:55 UTC] PHP   4. WP_Hook->apply_filters() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:312
 [22-Feb-2020 17:49:55 UTC] PHP   5. wp_update_plugins() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/class-wp-hook.php:288
 [22-Feb-2020 17:49:55 UTC] PHP   6. trigger_error() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/update.php:388
+[29-Feb-2020 11:13:32 UTC] PHP Warning:  Illegal string offset 'cat_first_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 11
+[29-Feb-2020 11:13:32 UTC] PHP Stack trace:
+[29-Feb-2020 11:13:32 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:13:32 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:13:32 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:13:32 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:13:32 UTC] PHP Warning:  Illegal string offset 'cat_second_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 12
+[29-Feb-2020 11:13:32 UTC] PHP Stack trace:
+[29-Feb-2020 11:13:32 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:13:32 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:13:32 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:13:32 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:13:32 UTC] PHP Warning:  Illegal string offset 'cat_first_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 11
+[29-Feb-2020 11:13:32 UTC] PHP Stack trace:
+[29-Feb-2020 11:13:32 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:13:32 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:13:32 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:13:32 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:13:32 UTC] PHP Warning:  Illegal string offset 'cat_second_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 12
+[29-Feb-2020 11:13:32 UTC] PHP Stack trace:
+[29-Feb-2020 11:13:32 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:13:32 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:13:32 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:13:32 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:13:32 UTC] PHP Warning:  Illegal string offset 'cat_first_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 11
+[29-Feb-2020 11:13:32 UTC] PHP Stack trace:
+[29-Feb-2020 11:13:32 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:13:32 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:13:32 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:13:32 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:13:32 UTC] PHP Warning:  Illegal string offset 'cat_second_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 12
+[29-Feb-2020 11:13:32 UTC] PHP Stack trace:
+[29-Feb-2020 11:13:32 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:13:32 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:13:32 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:13:32 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:14:37 UTC] PHP Warning:  Illegal string offset 'cat_first_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 13
+[29-Feb-2020 11:14:37 UTC] PHP Stack trace:
+[29-Feb-2020 11:14:37 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:14:37 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:14:37 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:14:37 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:14:37 UTC] PHP Warning:  Illegal string offset 'cat_second_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 14
+[29-Feb-2020 11:14:37 UTC] PHP Stack trace:
+[29-Feb-2020 11:14:37 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:14:37 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:14:37 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:14:37 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:14:37 UTC] PHP Warning:  Illegal string offset 'cat_first_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 13
+[29-Feb-2020 11:14:37 UTC] PHP Stack trace:
+[29-Feb-2020 11:14:37 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:14:37 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:14:37 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:14:37 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:14:37 UTC] PHP Warning:  Illegal string offset 'cat_second_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 14
+[29-Feb-2020 11:14:37 UTC] PHP Stack trace:
+[29-Feb-2020 11:14:37 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:14:37 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:14:37 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:14:37 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:14:37 UTC] PHP Warning:  Illegal string offset 'cat_first_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 13
+[29-Feb-2020 11:14:37 UTC] PHP Stack trace:
+[29-Feb-2020 11:14:37 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:14:37 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:14:37 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:14:37 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:14:37 UTC] PHP Warning:  Illegal string offset 'cat_second_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 14
+[29-Feb-2020 11:14:37 UTC] PHP Stack trace:
+[29-Feb-2020 11:14:37 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:14:37 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:14:37 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:14:37 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:18:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 267
+[29-Feb-2020 11:18:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 268
+[29-Feb-2020 11:19:43 UTC] PHP Warning:  Illegal string offset 'cat_first_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 40
+[29-Feb-2020 11:19:43 UTC] PHP Stack trace:
+[29-Feb-2020 11:19:43 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:19:43 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:19:43 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:19:43 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:19:43 UTC] PHP Warning:  Illegal string offset 'cat_first_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 40
+[29-Feb-2020 11:19:43 UTC] PHP Stack trace:
+[29-Feb-2020 11:19:43 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:19:43 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:19:43 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:19:43 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:19:43 UTC] PHP Warning:  Illegal string offset 'cat_first_line' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 40
+[29-Feb-2020 11:19:43 UTC] PHP Stack trace:
+[29-Feb-2020 11:19:43 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:19:43 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:19:43 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:19:43 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:20:51 UTC] PHP Warning:  Illegal string offset 'catalogue_header_text' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 40
+[29-Feb-2020 11:20:51 UTC] PHP Stack trace:
+[29-Feb-2020 11:20:51 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:20:51 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:20:51 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:20:51 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:20:51 UTC] PHP Warning:  Illegal string offset 'catalogue_header_text' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 40
+[29-Feb-2020 11:20:51 UTC] PHP Stack trace:
+[29-Feb-2020 11:20:51 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:20:51 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:20:51 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:20:51 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:20:51 UTC] PHP Warning:  Illegal string offset 'catalogue_header_text' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 40
+[29-Feb-2020 11:20:51 UTC] PHP Stack trace:
+[29-Feb-2020 11:20:51 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:20:51 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:20:51 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:20:51 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[29-Feb-2020 11:22:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/front-page.php on line 36
+[29-Feb-2020 11:22:20 UTC] PHP Stack trace:
+[29-Feb-2020 11:22:20 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:0
+[29-Feb-2020 11:22:20 UTC] PHP   2. require() /home/kelly/Local Sites/nivanna-interiors/app/public/index.php:17
+[29-Feb-2020 11:22:20 UTC] PHP   3. require_once() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-blog-header.php:19
+[29-Feb-2020 11:22:20 UTC] PHP   4. include() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-includes/template-loader.php:98
+[03-Mar-2020 05:25:16 UTC] PHP Notice:  Undefined index: name in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/mail.php on line 1
+[03-Mar-2020 05:25:16 UTC] PHP Stack trace:
+[03-Mar-2020 05:25:16 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/mail.php:0
+[03-Mar-2020 05:30:57 UTC] PHP Notice:  Undefined index: name in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/mail.php on line 1
+[03-Mar-2020 05:30:57 UTC] PHP Stack trace:
+[03-Mar-2020 05:30:57 UTC] PHP   1. {main}() /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/mail.php:0
+[19-Mar-2020 18:50:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/functions.php on line 34
+[19-Mar-2020 18:50:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/kelly/Local Sites/nivanna-interiors/app/public/wp-content/themes/theme/functions.php on line 34

@@ -78,3 +78,22 @@
 [24-Feb-2020 19:28:37] ERROR: FPM initialization failed
 [27-Feb-2020 08:32:32] NOTICE: fpm is running, pid 17261
 [27-Feb-2020 08:32:32] NOTICE: ready to handle connections
+[29-Feb-2020 13:41:08] NOTICE: fpm is running, pid 13528
+[29-Feb-2020 13:41:08] NOTICE: ready to handle connections
+[02-Mar-2020 12:44:45] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[02-Mar-2020 12:44:45] ERROR: FPM initialization failed
+[02-Mar-2020 12:44:45] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[02-Mar-2020 12:44:45] ERROR: FPM initialization failed
+[02-Mar-2020 12:44:46] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[02-Mar-2020 12:44:46] ERROR: FPM initialization failed
+[02-Mar-2020 12:44:47] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[02-Mar-2020 12:44:47] ERROR: FPM initialization failed
+[03-Mar-2020 08:24:13] NOTICE: fpm is running, pid 5175
+[03-Mar-2020 08:24:13] NOTICE: ready to handle connections
+[03-Mar-2020 08:28:33] WARNING: [pool www] child 5186 said into stderr: "php-fpm: pool www: symbol lookup error: php-fpm: pool www: undefined symbol: zip_libzip_version"
+[03-Mar-2020 08:28:33] WARNING: [pool www] child 5186 exited with code 127 after 260.084696 seconds from start
+[03-Mar-2020 08:28:33] NOTICE: [pool www] child 5784 started
+[18-Mar-2020 21:29:12] NOTICE: fpm is running, pid 21628
+[18-Mar-2020 21:29:12] NOTICE: ready to handle connections
+[19-Mar-2020 17:30:38] NOTICE: fpm is running, pid 3212
+[19-Mar-2020 17:30:38] NOTICE: ready to handle connections
