@@ -516,6 +516,10 @@ footer {
   position: absolute;
   bottom: 0.25em;
   right: 0.5em; }
+  .cart:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
 
 @media screen and (max-width: 991px) {
   .slider__catalogue {

@@ -22,7 +22,7 @@ function load_js()
 {
     $dependencies = array('jquery');
     // Bootstrap
-    wp_register_script('bootstrap', get_template_directory_uri() . '/src/js/vendor/bootstrap.min.js', array(), 1, 1, 1);
+    wp_register_script('bootstrap', get_template_directory_uri() . '/js/vendor/bootstrap.min.js', array(), 1, 1, 1);
     wp_enqueue_script('bootstrap');
 
     // Light slider

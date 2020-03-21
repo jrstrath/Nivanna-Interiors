@@ -649,6 +649,10 @@ footer {
   position: absolute;
   bottom: 0.25em;
   right: 0.5em;
+
+  &:hover{
+    @include grow;
+  }
 }
 
 
