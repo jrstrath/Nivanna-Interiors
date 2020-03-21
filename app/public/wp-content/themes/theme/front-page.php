@@ -190,9 +190,7 @@ $cat_header_1 = $catalogue_header_text['cat_first_line'];
                     <label for="message">Message</label>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
-                    <div class="form__btn btn">
-                        <input type="submit" value="Send">
-                    </div>
+                    <input type="submit" class="form__btn btn" value="Send">
                 </form>
 
             </div>

@@ -31,6 +31,9 @@ function load_js()
 
     // Main
     wp_enqueue_script('main_js', get_template_directory_uri() . '/js/main.js', $dependencies);
+
+    //  Scroll
+    wp_enqueue_script('scroll', get_template_directory_uri() . '/js/scroll.js', $dependencies);
 }
 
 add_action('wp_enqueue_scripts', 'load_js');

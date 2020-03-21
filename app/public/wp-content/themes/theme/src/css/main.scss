@@ -8,6 +8,7 @@
 
 // @import "boot_reset";
 
+
 * {
   font-family: "Montserrat", sans-serif;
 }
@@ -49,6 +50,8 @@ h2 {
     color: $white;
     font-size: 1.5rem;
   }
+
+  @include btn_hover;
 }
 
 .navbar {
@@ -174,7 +177,6 @@ section {
 
 .jumbotron__img {
   height: $vh / 1.52;
-  background-color: grey;
   border-radius: 50px;
   // border-bottom-left-radius: 50px;
   background: url("/wp-content/themes/theme/src/img/jumbotron.jpg"),
@@ -286,7 +288,6 @@ section {
       display: flex;
       align-items: center;
       margin: auto;
-      display: flex;
       justify-content: center;
     }
 
@@ -355,6 +356,11 @@ section {
   text-decoration: none;
   color: $scarlet;
   text-align: center;
+
+  &:hover{
+    color: lighten($scarlet, 15%);
+    text-decoration: none;
+  }
 }
 
 .social_media {
@@ -367,6 +373,11 @@ section {
 
 .social_media__icons {
   cursor: pointer;
+
+  &:hover {
+    @include grow;
+    transition: 0.5s;
+  }
 }
 
 .contact__grid {
@@ -407,6 +418,10 @@ section {
 .form__btn {
   width: 10em;
   margin: auto;
+  color: $super-white;
+  justify-content: center;
+  border-radius: 50px !important;
+  height: 3.25em !important;
 }
 
 .info__header {
@@ -507,6 +522,11 @@ footer {
 
 .footer__icons {
   cursor: pointer;
+
+  &:hover {
+    @include grow;
+    transition: 0.5s;
+  }
 }
 
 .section_break {
