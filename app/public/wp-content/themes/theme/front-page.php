@@ -118,7 +118,15 @@ $cat_header_1 = $catalogue_header_text['cat_first_line'];
                                 <img src="<?php bloginfo('template_directory') ?>/src/img/sofa_3.jpg" alt="">
                             </div>
                             <div class="slider__image--catalogue">
-                                <img src="<?php bloginfo('template_directory') ?>/src/img/sofa_4.jpg" alt="">
+                                <img src="<?php bloginfo('template_directory') ?>/src/img/sofa_2.jpg" alt="">
+                            </div>
+
+
+                            <div class="slider__image--catalogue">
+                                <img src="<?php bloginfo('template_directory') ?>/src/img/sofa_3.jpg" alt="">
+                            </div>
+                            <div class="slider__image--catalogue">
+                                <img src="<?php bloginfo('template_directory') ?>/src/img/sofa_2.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -133,6 +141,14 @@ $cat_header_1 = $catalogue_header_text['cat_first_line'];
                             <div class="slider__image--catalogue">
                                 <img src="<?php bloginfo('template_directory') ?>/src/img/bedroom_2.jpg" alt="">
                             </div>
+                            <div class="slider__image--catalogue">
+                                <img src="<?php bloginfo('template_directory') ?>/src/img/bedroom_3.jpg" alt="">
+                            </div>
+                            <div class="slider__image--catalogue">
+                                <img src="<?php bloginfo('template_directory') ?>/src/img/bedroom_4.jpg" alt="">
+                            </div>
+
+
                             <div class="slider__image--catalogue">
                                 <img src="<?php bloginfo('template_directory') ?>/src/img/bedroom_3.jpg" alt="">
                             </div>

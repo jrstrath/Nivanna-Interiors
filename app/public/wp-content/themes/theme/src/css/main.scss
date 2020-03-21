@@ -98,6 +98,8 @@ h2 {
   color: $black;
   font-size: 1rem;
   font-weight: 500;
+  transition: 0.2s;
+  transition-timing-function: linear;
 
   &.active {
     font-weight: bold;
@@ -303,6 +305,15 @@ section {
         font-weight: bold;
       }
     }
+
+    &:hover {
+      @include grow;
+
+      p {
+        color: $scarlet;
+        font-weight: 500;
+      }
+    }
   }
 }
 
@@ -334,15 +345,22 @@ section {
 .slider__image--catalogue {
   height: 100%;
   width: 95% !important;
-  margin: 0 1em;
+  max-height: 10em;
+  margin: auto;
 
   background-color: $black;
 
   img {
     object-fit: cover;
-    height: 100%;
+    height: 9.5em;
     opacity: 0.75;
     width: 100%;
+  }
+}
+
+.slick-slide {
+  div:first-child {
+    display: flex;
   }
 }
 
@@ -357,7 +375,7 @@ section {
   color: $scarlet;
   text-align: center;
 
-  &:hover{
+  &:hover {
     color: lighten($scarlet, 15%);
     text-decoration: none;
   }

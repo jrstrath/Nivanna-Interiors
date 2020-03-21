@@ -1,55 +1,67 @@
 // Initiate slider
 jQuery(document).ready(function () {
-	let pathname = window.location.pathname;
+	// Set active menu on navigation
+	var page = window.location.pathname;
+	setActiveNav(page);
 
-	jQuery('.nav-item  .nav-link').click(function () {
-		//removing the previous selected menu state
-		jQuery('.nav').find('li.active').removeClass('active');
-		//adding the state for this parent menu
-		jQuery(this).parents('li').addClass('active');
+
+	// Jumbotron Btn navigates to catalogue page/
+	jQuery('.jumbotron__btn').on('click', () => {
+		window.location.pathname = '/catalogue';
 	});
 
-	jQuery('.slider').slick({
-		slidesToShow: 4,
-		// Enables tabbing and arrow key navigation
-		accessibility: true,
+	// Catalogue menu activity
+	jQuery('.menu__item--row').click((evt) => {
+		// clear active class
+		jQuery('.menu__item--row.active').removeClass('active');
 
-		// Adapts slider height to the current slide
-		adaptiveHeight: false,
-
-		// Enable Next/Prev arrows
-		arrows: true,
-
-		// Sets the slider to be the navigation of other slider (Class or ID Name)
-		asNavFor: null,
-
-		// prev arrow
-		prevArrow: '<div class="prev slider__nav></div>',
-
-		// next arrow
-		nextArrow: '<div class="next slider__nav></div>',
-
-		// Enables auto play of slides
-		autoplay: true,
-
-		// Auto play change interval
-		autoplaySpeed: 3000,
-
-		// Enables centered view with partial prev/next slides.
-		// Use with odd numbered slidesToShow counts.
-		centerMode: false,
-
-		// Side padding when in center mode. (px or %)
-		centerPadding: '50px',
-
-		// CSS3 easing
-		cssEase: 'ease'
+		var curr_id = '#' + evt.currentTarget.id;
+		jQuery(curr_id).addClass('active');
 	});
 
-	// Set menu item to active on click
-	jQuery('.nav-item').on('click', function () {
-		jQuery(this).addClass('active');
+	// On scroll Update navigation menu
+	jQuery(document).scroll(() => {
+		if (page === '/' || page.includes('jumbotron')) {
+			// 1st clear default active
+			jQuery('.nav-item.active').removeClass('active');
+
+			sectionIsInView(contact) ? jQuery('#menu_contact').addClass('active') : jQuery('#menu_home').addClass('active');
+		}
 	});
-
-
 });
+
+/**
+ * Set active Navigation
+ * @param page {string}
+ * */
+function setActiveNav(page) {
+	const contact = document.querySelector('#contact');
+	// 1st clear default active
+	jQuery('.nav-item.active').removeClass('active');
+
+	if (page === '/' || page.includes('jumbotron')) {
+		sectionIsInView(contact) ? jQuery('#menu_contact').addClass('active') : jQuery('#menu_home').addClass('active');
+	} else if (page.includes('catalogue')) {
+		jQuery('#menu_catalogue').addClass('active');
+	}
+}
+
+// The checker
+const sectionIsInView = el => {
+	const scroll = window.scrollY || window.pageYOffset;
+	const boundsTop = el.getBoundingClientRect().top + scroll;
+
+	const viewport = {
+		top: scroll,
+		bottom: scroll + window.innerHeight,
+	};
+
+	const bounds = {
+		top: boundsTop,
+		bottom: boundsTop + el.clientHeight,
+	};
+
+	return (bounds.bottom >= viewport.top && bounds.bottom <= viewport.bottom)
+		|| (bounds.top <= viewport.bottom && bounds.top >= viewport.top);
+};
+
