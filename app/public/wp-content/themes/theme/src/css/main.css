@@ -114,7 +114,7 @@ h2 {
   color: #000000;
   font-size: 1rem;
   font-weight: 500;
-  transition: 0.2s;
+  transition: 0.1s;
   transition-timing-function: linear; }
   .nav-item.active {
     font-weight: bold; }
@@ -469,7 +469,8 @@ footer {
     color: #000000;
     text-align: center; }
   .navbar-collapse .nav-item.active {
-    background-color: #470024; }
+    background-color: #470024;
+    border-radius: 15px; }
     .navbar-collapse .nav-item.active .nav-link {
       color: #ffffff; }
 

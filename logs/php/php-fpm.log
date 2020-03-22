@@ -101,3 +101,11 @@
 [20-Mar-2020 11:40:30] NOTICE: ready to handle connections
 [21-Mar-2020 09:31:55] NOTICE: fpm is running, pid 3245
 [21-Mar-2020 09:31:55] NOTICE: ready to handle connections
+[22-Mar-2020 11:54:41] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[22-Mar-2020 11:54:41] ERROR: FPM initialization failed
+[22-Mar-2020 11:54:42] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[22-Mar-2020 11:54:42] ERROR: FPM initialization failed
+[22-Mar-2020 11:54:43] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[22-Mar-2020 11:54:43] ERROR: FPM initialization failed
+[22-Mar-2020 11:54:44] ERROR: Another FPM instance seems to already listen on /home/kelly/.config/Local/run/50ByXuhfK/php/php-fpm.socket
+[22-Mar-2020 11:54:44] ERROR: FPM initialization failed

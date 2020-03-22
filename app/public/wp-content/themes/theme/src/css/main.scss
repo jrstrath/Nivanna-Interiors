@@ -98,7 +98,7 @@ h2 {
   color: $black;
   font-size: 1rem;
   font-weight: 500;
-  transition: 0.2s;
+  transition: 0.1s;
   transition-timing-function: linear;
 
   &.active {
@@ -585,6 +585,7 @@ footer {
   .nav-item {
     &.active {
       background-color: $scarlet;
+      border-radius: 15px;
 
       .nav-link {
         color: $super_white;
